@@ -1,0 +1,11 @@
+{
+  "name": "koa-react-universal",
+  "version": "0.0.1",
+  "description": "univeral boilerplate based on koa and react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sea.yang",
+  "license": "ISC"
+}

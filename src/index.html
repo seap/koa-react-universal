@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>React Bucket</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <script>
+  function adaptFont() {
+    var maxWidth = 750,
+        minWidth = 320,
+        minSize = 16,
+        currentWidth = Math.min(document.documentElement.getBoundingClientRect().width, maxWidth);
+    //设置基准值
+    document.documentElement.style.fontSize =  (currentWidth/minWidth)*minSize + 'px';
+  }
+  adaptFont();
+  window.addEventListener("resize", adaptFont);
+  </script>
+  <div id="root"></div>
+</body>
+</html>

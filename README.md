@@ -1,9 +1,10 @@
-├── middlewares
-│   └── post.js
-├── script
-│   ├── post.js
-│   ├── site.js
-│   ├── user.js
-│   └── userAuthor.js
-├── home.js
-└── app.js
+├── app
+│   ├── actions
+│   ├── common
+│   ├── components
+│   └── index.js
+├── bin
+│   ├── server.js
+│   └── www
+├── server
+└── index.html
